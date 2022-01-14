@@ -3,7 +3,7 @@ class Megaman{
 		this.game = game;
 		this.animator = new Animator(ASSET_MANAGER.getAsset("./megaman.png"),
 		 0
-, 0,124,64, 8,0.05);
+, 0,124,64, 6,0.05);
 	};
 	update() {
 
